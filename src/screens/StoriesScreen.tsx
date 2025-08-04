@@ -21,7 +21,7 @@ const stories = [
         id: '1',
         title: 'Amsterdamer Straße 10 – Otto & Elise Hampel',
         coords: '52.55111, 13.35694',
-        image: require('../assets/img/Silenterlin-5/1-JTS-Front-View-650x401.png'), // Ensure this path is correct
+        image: require('../assets/img/Silenterlin-5/1fqwf01.png'), // Ensure this path is correct
         fullText: "Otto and Elise Hampel, a working-class couple from Berlin's Wedding district, began leaving handwritten postcards with anti-Nazi messages in stairwells around the city between 1940 and 1942. These small acts of defiance urged citizens to resist Hitler, boycott the war effort, and reject fascist ideology.\nTheir quiet protest continued for almost two two years until they were betrayed and arrested by the Gestapo.\nIn April 1943, both were executed at Plötzensee Prison for \"undermining military morale.\" Their story was later fictionalized in Hans Fallada’s novel Every Man Dies Alone.\nA plaque now marks their former home, honoring their humble yet powerful resistance."
     },
     {
@@ -49,7 +49,7 @@ const stories = [
         id: '5',
         title: 'Westend – Harro & Libertas Schulze-Boysen',
         coords: '52.5130, 13.2840',
-        image: require('../assets/img/Silenterlin-5/Berlijn_-_Bendlerblock_-_panorami1.png'),
+        image: require('../assets/img/Silenterlin-5/Berlijpanorami1.png'),
         fullText: "Harro and Libertas Schulze-Boysen were central figures in the Red Orchestra, an anti-Nazi resistance and intelligence network.\nLibertas worked at the Ministry of Propaganda and secretly collected evidence of Nazi crimes. Harro, an officer in the Luftwaffe, used his position to pass information to the Allies.\nThey were arrested in 1942, interrogated, and executed at Plötzensee.\nTheir apartment in Westend was both a home and a resistance cell, driven by intellect, love, and defiance."
     },
     {
@@ -63,7 +63,7 @@ const stories = [
         id: '7',
         title: 'Potsdamer Platz – German Resistance Memorial Center',
         coords: '52.50966, 13.37648',
-        image: require('../assets/img/Silenterlin-5/Előtérb.png'),
+        image: require('../assets/img/Silenterlin-5/rftyguhi.png'),
         fullText: "Near Potsdamer Platz lies the German Resistance Memorial Center, located in the Bendlerblock complex.\nIt documents resistance by individuals and groups: from students and workers to clergy and military officers. Exhibits include documents, photographs, and recorded testimonies.\nThe center emphasizes that resistance took many forms and came from all walks of life.\nIt invites visitors to reflect on their own ethical responsibilities today."
     },
     // {

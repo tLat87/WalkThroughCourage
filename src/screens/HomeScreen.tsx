@@ -7,7 +7,7 @@ const LOCATIONS = [
         id: '1', // Use string ID for consistency if it's coming from external data later
         title: 'Amsterdamer Straße 10 – Otto & Elise Hampel',
         coordinates: { latitude: 52.55111, longitude: 13.35694 },
-        image: require('../assets/img/Silenterlin-5/1-JTS-Front-View-650x401.png'), // Ensure this path is correct
+        image: require('../assets/img/Silenterlin-5/1fqwf01.png'), // Ensure this path is correct
         description: "Otto and Elise Hampel, a working-class couple from Berlin's Wedding district, began leaving handwritten postcards with anti-Nazi messages in stairwells around the city between 1940 and 1942. These small acts of defiance urged citizens to resist Hitler, boycott the war effort, and reject fascist ideology.\nTheir quiet protest continued for almost two two years until they were betrayed and arrested by the Gestapo.\nIn April 1943, both were executed at Plötzensee Prison for \"undermining military morale.\" Their story was later fictionalized in Hans Fallada’s novel Every Man Dies Alone.\nA plaque now marks their former home, honoring their humble yet powerful resistance."
     },
     {
@@ -36,7 +36,7 @@ const LOCATIONS = [
         title: 'Westend – Harro & Libertas Schulze-Boysen',
         // Note: For "Approx. 52.5130, 13.2840", assuming these are the precise coordinates for the map.
         coordinates: { latitude: 52.5130, longitude: 13.2840 },
-        image: require('../assets/img/Silenterlin-5/Berlijn_-_Bendlerblock_-_panorami1.png'),
+        image: require('../assets/img/Silenterlin-5/Berlijpanorami1.png'),
         description: "Harro and Libertas Schulze-Boysen were central figures in the Red Orchestra, an anti-Nazi resistance and intelligence network.\nLibertas worked at the Ministry of Propaganda and secretly collected evidence of Nazi crimes. Harro, an officer in the Luftwaffe, used his position to pass information to the Allies.\nThey were arrested in 1942, interrogated, and executed at Plötzensee.\nTheir apartment in Westend was both a home and a resistance cell, driven by intellect, love, and defiance."
     },
     {
@@ -50,7 +50,7 @@ const LOCATIONS = [
         id: '7',
         title: 'Potsdamer Platz – German Resistance Memorial Center',
         coordinates: { latitude: 52.50966, longitude: 13.37648 },
-        image: require('../assets/img/Silenterlin-5/Előtérb.png'),
+        image: require('../assets/img/Silenterlin-5/rftyguhi.png'),
         description: "Near Potsdamer Platz lies the German Resistance Memorial Center, located in the Bendlerblock complex.\nIt documents resistance by individuals and groups: from students and workers to clergy and military officers. Exhibits include documents, photographs, and recorded testimonies.\nThe center emphasizes that resistance took many forms and came from all walks of life.\nIt invites visitors to reflect on their own ethical responsibilities today."
     },
     {
@@ -64,14 +64,14 @@ const LOCATIONS = [
         id: '9',
         title: 'Charlottenburg & Westend – Red Orchestra Sites',
         coordinates: { latitude: 52.5130, longitude: 13.2840 }, // Using same coordinates as Westend for now
-        image: require('../assets/img/Silenterlin-5/Berlijn_-_Bendlerblock_-_panorami1.png'), // Using a placeholder image, replace if you have a specific one
+        image: require('../assets/img/Silenterlin-5/Berlijpanorami1.png'), // Using a placeholder image, replace if you have a specific one
         description: "The Red Orchestra operated from private homes and offices across Berlin, particularly in Westend and Charlottenburg.\nTheir work included espionage, leaflet writing, and coordination with Soviet contacts. Members were diverse: students, artists, soldiers, civil servants.\nAfter mass arrests in 1942, many were sentenced to death.\nThe buildings they used looked ordinary but were hubs of silent resistance."
     },
     {
         id: '10',
         title: 'Wedding & Schöneberg – Stairwells of Resistance',
         coordinates: { latitude: 52.55111, longitude: 13.35694 }, // Using same coordinates as Otto & Elise Hampel
-        image: require('../assets/img/Silenterlin-5/1-JTS-Front-View-650x401.png'), // Using a placeholder image, replace if you have a specific one
+        image: require('../assets/img/Silenterlin-5/1fqwf01.png'), // Using a placeholder image, replace if you have a specific one
         description: "Otto and Elise Hampel left their postcards in public stairwells in districts like Wedding and Schöneberg.\nThis seemingly minor act was in fact radical: their cards urged citizens not to donate to Nazi causes or support the war.\nMost of the cards were turned over to the Gestapo, but their message lingered. They inspired neighbors to think, if not act.\nEvery stairwell they visited became a tiny battlefield for truth."
     },
     {
