@@ -32,9 +32,13 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Cormorant-Italic-VariableFont_wght.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -49,9 +53,30 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Cormorant-Italic-VariableFont_wght.ttf</string>
-	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs access to your location to show your position on the map.</string>
+
+    <!-- Optional: If using background location -->
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app uses your location in the background to improve location-based features.</string>
+
+    <!-- Required for react-native-share -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>whatsapp</string>
+      <string>instagram</string>
+      <string>fb</string>
+      <string>twitter</string>
+      <string>mailto</string>
+      <string>tel</string>
+    </array>
+
+    <!-- Required for camera or gallery access (if used with react-native-share or any other library) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to your photo library for sharing content.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires access to your camera for capturing photos.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app requires access to your microphone for recording audio.</string>
 </dict>
 </plist>
