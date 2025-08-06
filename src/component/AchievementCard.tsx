@@ -77,11 +77,12 @@ const styles = StyleSheet.create({
         lineHeight: 16,
     },
     description: {
-        fontSize: 10,
+        fontSize: 14,
         color: '#fff8dc',
         textAlign: 'center',
         fontFamily: 'serif',
         marginTop: 5,
+        marginBottom: 20,
         lineHeight: 14,
     },
     lockedText: {

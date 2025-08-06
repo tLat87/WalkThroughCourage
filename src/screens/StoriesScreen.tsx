@@ -9,9 +9,11 @@ import {
     Animated,
     ScrollView,
     StyleSheet,
-    Dimensions, Share, // Import Dimensions
+    Dimensions, // Import Dimensions
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import Share from 'react-native-share';
+
 
 // Add Dimensions for consistent styling
 const { width } = Dimensions.get('window');
@@ -140,18 +142,17 @@ export default function StoriesScreen() {
     }, [search, sortAsc]);
 
     const handleShare = async (item) => {
-        try {
-            const shareOptions = {
-                title: `Read about: ${item.title}`,
-                message: `${item.title}\n\n${item.fullText}\n\nLearn more at [Your App Link Here or a relevant website]`,
-                // You can also add a URL if your app has deep links or a website for stories
-                // url: `your-app-deeplink-or-website/story/${item.id}`,
-            };
-            await Share.open(shareOptions);
-        } catch (error) {
-            console.error('Error sharing story:', error.message);
-            // You might want to show an alert to the user here
-        }
+
+        const shareOptions = {
+            title: `Read about: ${item.title}`,
+            message: `${item.title}\n\n${item.fullText}\n\nLearn more at https://example.com/story/${item.id}`,
+            // Optional: You can also include url
+            // url: 'https://example.com/story/' + item.id,
+        };
+
+        await Share.open(shareOptions);
+
+
     };
 
     return (
@@ -217,7 +218,7 @@ export default function StoriesScreen() {
                                     <Text style={styles.readText}>READ</Text>
                                 </TouchableOpacity>
 
-                                <TouchableOpacity style={styles.shareButton} onPress={handleShare}>
+                                <TouchableOpacity style={styles.shareButton} onPress={()=>{handleShare(item)}}>
                                     {/* You might want to add a share icon here instead of text */}
                                     <Text style={styles.readText}>SHARE</Text>
                                 </TouchableOpacity>
