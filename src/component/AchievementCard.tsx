@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     },
     iconContainer: {
         marginBottom: 8,
+        marginTop: 20,
     },
     smallFace: {
         position: 'absolute',
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontFamily: 'serif',
         marginTop: 5,
-        marginBottom: 20,
+        marginBottom: 50,
         lineHeight: 14,
     },
     lockedText: {
